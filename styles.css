@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.gold {
+  color: goldenrod;
+}
+
+.red {
+  color: red;
+}
+
+.purple{
+  color: rgb(206, 87, 206);
+}
+
+nav > ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 15px 15px;
+  padding: 0;
+}
+
+li{
+  list-style-position: inside;
+}
